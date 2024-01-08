@@ -19,3 +19,6 @@ const scroll = document.querySelectorAll(".scrollspy");
 M.ScrollSpy.init(scroll, {
   scrollOffset: 50,
 });
+
+const toast = document.querySelectorAll(".toasting");
+M.Toasting.init(toast);
